@@ -13,6 +13,14 @@
 		D9813B5821DF136600351B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9813B5721DF136600351B27 /* Assets.xcassets */; };
 		D9813B5B21DF136600351B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9813B5921DF136600351B27 /* LaunchScreen.storyboard */; };
 		D9813B5E21DF136600351B27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9813B5D21DF136600351B27 /* main.m */; };
+		D9813B6621DF14D500351B27 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9813B6521DF14D500351B27 /* WebViewController.m */; };
+		D9813B6921DF166B00351B27 /* www in Resources */ = {isa = PBXBuildFile; fileRef = D9813B6821DF166B00351B27 /* www */; };
+		D9813B7321DF253300351B27 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D9813B6B21DF253300351B27 /* WebViewJavascriptBridgeBase.m */; };
+		D9813B7421DF253300351B27 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D9813B6C21DF253300351B27 /* WKWebViewJavascriptBridge.m */; };
+		D9813B7521DF253300351B27 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D9813B6D21DF253300351B27 /* WebViewJavascriptBridge.m */; };
+		D9813B7621DF253300351B27 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = D9813B7021DF253300351B27 /* WebViewJavascriptBridge_JS.m */; };
+		D9813B7C21DF26B600351B27 /* ExamlpeProtol.m in Sources */ = {isa = PBXBuildFile; fileRef = D9813B7B21DF26B600351B27 /* ExamlpeProtol.m */; };
+		D9813B7F21DF288A00351B27 /* ExampleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D9813B7E21DF288A00351B27 /* ExampleConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,21 @@
 		D9813B5A21DF136600351B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9813B5C21DF136600351B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9813B5D21DF136600351B27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9813B6421DF14D500351B27 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D9813B6521DF14D500351B27 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		D9813B6821DF166B00351B27 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		D9813B6B21DF253300351B27 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		D9813B6C21DF253300351B27 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		D9813B6D21DF253300351B27 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		D9813B6E21DF253300351B27 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		D9813B6F21DF253300351B27 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		D9813B7021DF253300351B27 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		D9813B7121DF253300351B27 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		D9813B7221DF253300351B27 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		D9813B7A21DF26B600351B27 /* ExamlpeProtol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamlpeProtol.h; sourceTree = "<group>"; };
+		D9813B7B21DF26B600351B27 /* ExamlpeProtol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamlpeProtol.m; sourceTree = "<group>"; };
+		D9813B7D21DF288A00351B27 /* ExampleConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleConfig.h; sourceTree = "<group>"; };
+		D9813B7E21DF288A00351B27 /* ExampleConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +81,18 @@
 		D9813B4D21DF136400351B27 /* WebCompareDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D9813B6A21DF253300351B27 /* WebViewJavascriptBridge */,
+				D9813B6821DF166B00351B27 /* www */,
 				D9813B4E21DF136400351B27 /* AppDelegate.h */,
 				D9813B4F21DF136400351B27 /* AppDelegate.m */,
+				D9813B7D21DF288A00351B27 /* ExampleConfig.h */,
+				D9813B7E21DF288A00351B27 /* ExampleConfig.m */,
 				D9813B5121DF136400351B27 /* ViewController.h */,
 				D9813B5221DF136400351B27 /* ViewController.m */,
+				D9813B6421DF14D500351B27 /* WebViewController.h */,
+				D9813B6521DF14D500351B27 /* WebViewController.m */,
+				D9813B7A21DF26B600351B27 /* ExamlpeProtol.h */,
+				D9813B7B21DF26B600351B27 /* ExamlpeProtol.m */,
 				D9813B5421DF136400351B27 /* Main.storyboard */,
 				D9813B5721DF136600351B27 /* Assets.xcassets */,
 				D9813B5921DF136600351B27 /* LaunchScreen.storyboard */,
@@ -69,6 +100,21 @@
 				D9813B5D21DF136600351B27 /* main.m */,
 			);
 			path = WebCompareDemo;
+			sourceTree = "<group>";
+		};
+		D9813B6A21DF253300351B27 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				D9813B6B21DF253300351B27 /* WebViewJavascriptBridgeBase.m */,
+				D9813B6C21DF253300351B27 /* WKWebViewJavascriptBridge.m */,
+				D9813B6D21DF253300351B27 /* WebViewJavascriptBridge.m */,
+				D9813B6E21DF253300351B27 /* WebViewJavascriptBridge_JS.h */,
+				D9813B6F21DF253300351B27 /* WebViewJavascriptBridgeBase.h */,
+				D9813B7021DF253300351B27 /* WebViewJavascriptBridge_JS.m */,
+				D9813B7121DF253300351B27 /* WebViewJavascriptBridge.h */,
+				D9813B7221DF253300351B27 /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9813B6921DF166B00351B27 /* www in Resources */,
 				D9813B5B21DF136600351B27 /* LaunchScreen.storyboard in Resources */,
 				D9813B5821DF136600351B27 /* Assets.xcassets in Resources */,
 				D9813B5621DF136400351B27 /* Main.storyboard in Resources */,
@@ -141,9 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9813B7C21DF26B600351B27 /* ExamlpeProtol.m in Sources */,
+				D9813B7621DF253300351B27 /* WebViewJavascriptBridge_JS.m in Sources */,
+				D9813B7F21DF288A00351B27 /* ExampleConfig.m in Sources */,
 				D9813B5321DF136400351B27 /* ViewController.m in Sources */,
 				D9813B5E21DF136600351B27 /* main.m in Sources */,
 				D9813B5021DF136400351B27 /* AppDelegate.m in Sources */,
+				D9813B6621DF14D500351B27 /* WebViewController.m in Sources */,
+				D9813B7321DF253300351B27 /* WebViewJavascriptBridgeBase.m in Sources */,
+				D9813B7521DF253300351B27 /* WebViewJavascriptBridge.m in Sources */,
+				D9813B7421DF253300351B27 /* WKWebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
